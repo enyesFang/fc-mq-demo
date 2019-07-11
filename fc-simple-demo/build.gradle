@@ -1,0 +1,8 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+dependencies {
+//    def activemq = ["org.apache.activemq:activemq-all:5.15.8"]
+//    compile activemq
+    testCompile 'junit:junit:4.12'
+}
