@@ -9,3 +9,4 @@
 
 rootProject.name = 'fc-mq-demo'
 include 'fc-simple-demo'
+include 'activemq'
