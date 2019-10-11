@@ -2,7 +2,9 @@ apply plugin: 'java'
 apply plugin: 'idea'
 
 dependencies {
+    def activemq_version = "5.6.0"
+    def activemq = ["org.apache.activemq:activemq-spring:$activemq_version"]
 //    def activemq = ["org.apache.activemq:activemq-all:5.15.8"]
-//    compile activemq
+    compile activemq
     testCompile 'junit:junit:4.12'
 }
